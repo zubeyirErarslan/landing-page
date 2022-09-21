@@ -1,4 +1,4 @@
-.text center {
+.text-center {
     text-align: center;
 }
 
@@ -26,3 +26,10 @@
     max-width: 1100px;
     margin: 0 auto;
 }
+.form-group{padding: 0.25rem;}
+.form-group label{display: block;}
+.form-contact{width: 100%;
+padding: 0.5rem;
+font-size: 0.5rem;
+resize: none;
+border-radius: 5px;}
