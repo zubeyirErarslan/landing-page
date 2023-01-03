@@ -24,12 +24,13 @@ html {
 }
 
 #navbar ul li a {
+    color: whitesmoke;
     padding: 0.75rem;
 }
 
 #navbar ul li a:hover {
-
-    background-color: #336ea2;
+    color: darkblue;
+    background-color: white;
     border-radius: 4px;
 
 }
@@ -40,13 +41,14 @@ a {
 }
 
 #home {
+    background-image: url("/landing-page/devops2.jpeg");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2px;
     border-bottom: 1px solid black;
-    background: #fff;
+    
 }
 
 #home img {
@@ -55,8 +57,9 @@ a {
     border-radius: 100%;
 }
 
-#home h2 {
 
+#home h2 {
+    color: white;
     font-size: 1.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0, 5rem;
@@ -67,9 +70,12 @@ a {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     font-style: italic;
+    font-size: 25px;
+    color: white;
 }
 
 #home a {
+    color: white;
     background-color: #336ea2;
     padding: 7px;
     border-radius: 7px;
@@ -110,7 +116,8 @@ a {
 }
 
 #courses {
-    color: #333;
+    background-image: url("/landing-page/devops.jpeg");
+    color: white;
     padding: 1rem;
 }
 
